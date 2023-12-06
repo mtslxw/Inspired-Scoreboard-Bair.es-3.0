@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="nui://esx_scoreboard/html/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.11/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+	<style>
+		.icon-color {
+			color: rgb(0, 110, 255); /* Cambia el color del icono aquí */
+		
+		}
+			.icon-color2 {
+			color: rgb(255, 255, 0); /* Cambia el color del icono aquí */	
+		}
+		
+		.icon-color3 {
+			color: rgb(255, 255, 255); /* Cambia el color del icono aquí */	
+		}
+		
+		.icon-color4 {
+			color: rgb(0, 255, 85); /* Cambia el color del icono aquí */	
+		}
+
+		.text-color {
+			color: rgb(255, 255, 255); /* Cambia el color del texto aquí */
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wrap">
+		<div class="header">
+			<div class="server_details">
+				<a> <i class="fa-solid fa-user-group icon-color3"></i> En linea: <span id="player_count" class="text-color">0</span>/<span id="max_players" class="text-color">0</span></a>
+			</div>
+			<div class="jobs">
+				
+				<a style="color:rgb(0, 89, 255);"> <i class="fa-solid fa-building-shield icon-color"></i> <span id="police" class="text-color">0</span></a>
+				
+				<a style="color:rgb(255, 225, 0);"> <i class="fas fa-lock icon-color2"></i> <span id="psg" class="text-color">0</span></a>	
+				
+				 <a style="color:rgb(0, 255, 98);"> <i class="fa-solid fa-truck-medical"></i> <span id="ambulance" class="text-color">0</span></a>	
+			</div>
+			<div class="server_details">
+			</div>
+		</div>
+
+		<div>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://esx_scoreboard/html/script.js" type="text/javascript"></script>
+</body>
+
+</html>

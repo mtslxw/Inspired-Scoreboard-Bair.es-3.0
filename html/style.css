@@ -1,0 +1,23 @@
+#wrap {
+	display: none;
+	font-family: 'Segoe UI';
+	width: 10.4%;
+	height: 2vw;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0px;
+	margin-top: 4.2%;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 1vh;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+.header a {
+	padding: 1%;
+	color: rgb(255, 255, 255);
+}
